@@ -1,0 +1,741 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #010101;
+}
+
+@keyframes rotateImage{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.rotate {
+    animation: rotateImage 4s linear infinite;
+}
+
+/* * {
+  margin: 20px 0px;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+ .maindiv{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    max-width: 1350px;
+    margin: 0px auto;
+ }
+    button{
+    background: linear-gradient(to right, #F0B71F, #E03609); 
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+}
+h2{
+    font-family: Orbitron;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61px;
+    color: white;
+    margin: 0px;
+}
+ h3{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+}
+ h4{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    color: white;
+    margin: 0px;
+}
+ h5{
+     font-family: Montserrat;
+      font-size: 35px;
+      line-height: 42px;
+      font-weight: 700;
+      background: linear-gradient(to right, #F0B71F, #E03609); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0px;
+    }
+    h6{
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    margin: 0px;
+}
+    p{
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #DDDDDD;
+    }
+.header{
+    display: flex;
+    gap: 135px;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px 90px;
+    padding-top: 10px;
+}
+.header a{
+    text-decoration: none;
+    padding: 0px 18px;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .hamburger span {
+      width: 25px;
+      height: 2px;
+      background: linear-gradient(to right, #F0B71F, #E03609); 
+      margin: 4px 0;
+      transition: 0.3s;
+    }
+.header button{
+    background: linear-gradient(to right, #F0B71F, #E03609); 
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+}
+.divider{
+    margin-top: 40px;
+}
+.roundedicon{
+    display: flex;
+    justify-content: space-between;
+    margin: -40px 0px;
+    padding: 0px 70px;
+}
+/* fa fa-bars */
+.CyberPunk{
+    text-align: center;
+    padding: 0px 90px;
+}
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 45px;
+    padding: 0px 90px;
+    align-items: center;
+    margin-top: -250px;
+}
+.expbox{
+    align-content: center;
+}
+.Gradientbox{
+    background: linear-gradient(to bottom, #C4C4C4, #010101);
+    padding: 270px 270px;
+}
+.herosection img{
+    width: 100%;
+}
+.herosection h4{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    color: white;
+}
+h1{
+    font-family: Orbitron;
+    font-size: 140px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #ffffff;
+}
+  .countersec{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0px 90px;
+    align-items: center;
+    margin-top: -150px;
+}
+.countersec .para{
+     font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 26px;
+      color: #ffffff;
+}
+.countercol1{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    border: 2px solid #E03609;
+    border-radius: 10px;
+    padding: 15px;
+}
+.clrbox{
+    background-color: #C4C4C4;
+    padding: 80px 95px;
+    border-radius: 15px;
+}
+.countercol2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.blurbox{
+    background: #191919;
+    padding: 25px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #F0B71F, #E03609) 1;
+}
+.Art{
+    align-content: center;
+}
+.roundedicon1{
+    display: flex;
+    justify-content: space-between;
+    margin: -123px 0px;
+    padding: 0px 50px;
+}
+
+.NeonDreams{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+    gap: 60px;
+    padding-top: 50px;
+}
+.ndbox1{
+    width: 50%;
+    align-content: center;
+}
+.ndbox2{
+    width: 50%;
+}
+.ndbox2 img{
+    width: 100%;
+}
+.maincounter{
+    display: flex;
+    justify-content: space-between; 
+}
+.gradient-text {
+  background: linear-gradient(to right, #F0B71F, #E03609);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Gradientbox1{
+    background: linear-gradient(to bottom, #C4C4C4, #010101);
+    padding: 100px 250px;
+}
+
+.DreamsDigital{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+    gap: 60px;
+}
+.Dreamsbox1{
+    width: 50%;
+}
+.Dreamsbox1 img{
+    width: 100%;
+}
+.Dreamsbox2{
+    width: 50%;
+    align-content: center;
+}
+.Gradientbox2{
+    background: linear-gradient(to bottom, #C4C4C4, #010101);
+    padding: 100px 250px;
+}
+.Revolution{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    border: 2px solid #E03609;
+    border-radius: 10px;
+    padding: 20px;
+}
+.boxpara{
+    display: block;
+    align-content: center;
+}
+.pararevo{
+     font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      color: #ffffff;
+}
+.Greetings {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 80px;
+      padding: 90px 80px;
+      gap: 40px;
+      background-color: #2e2e2e;
+    }
+    .Greetings h2 {
+    font-family: Orbitron;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 55px;
+    color: white;
+    }
+
+    .left {
+      max-width: 500px;
+    }
+    .right {
+      border: 1px solid #ffa500;
+      border-radius: 10px;
+      padding: 30px 20px;
+      max-width: 500px;
+    }
+    .right .box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .right .box span {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .dot {
+      width: 15px;
+      height: 15px;
+    }
+    .yellow 
+    { 
+        background-color: #ffcc00; 
+    }
+    .red { 
+        background-color: #ff3300; 
+    }
+    .arrow {
+      font-size: 18px;
+      color: #ffffff;
+    }
+    /* .mainrounded{
+
+    } */
+    .hrr3{
+        margin: -93px 0px;
+    }
+    .roundedicon2{
+    display: flex;
+    justify-content: space-between;
+    margin: 61px 0px;
+    padding: 0px 50px;
+   }
+   .Cybernetic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 200px;
+    margin-top: -100px;
+   }
+  .iconbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 90px;
+    padding-bottom: 75px;
+  }
+  .innerbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+  }
+.border{
+    border: 1px solid #E03609;
+    padding: 6px;
+    border-radius: 4px;
+}
+.YourPortal{
+display: flex;
+justify-content: space-between;
+padding: 0px 90px;
+gap: 50px;
+}
+.whitebox{
+    background-color: #C4C4C4;
+    padding: 200px 200px;
+    border-radius: 10px;
+}
+.contentbox{
+    align-content: center;
+}
+.doublebutton{
+    display: flex;
+    gap: 20px;
+}
+.Frequently{
+    align-content: center;
+    text-align: center;
+    padding: 0px 350px;
+}
+.faqs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.accordion {
+  color: #ffffff;
+  background: #010101;
+  padding: 20px;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.number {
+  font-family: Orbitron;
+  font-size: 26px;
+  background: linear-gradient(to right, #F0B71F, #E03609);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.panel {
+  max-height: 0px;
+  overflow: hidden;
+  padding: 0 20px;
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: 16px;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+.footer{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 90px;
+    gap: 80px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.footerend{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+    gap: 40px;
+    align-items: center;
+}
+.footerend a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 12px;
+}
+
+
+
+
+
+    @media (max-width: 768px) {
+    .header {
+    padding: 22px 20px;
+    }
+      nav {
+        position: absolute;
+        top: 94px;
+        right: 0;
+        background: #111;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        padding: 20px 0;
+        gap: 30px;
+      }
+
+      nav.active {
+        display: flex;
+      }
+
+      .header button {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+      /* .bx{
+        width: 50%;
+    } */
+    .hr{
+        width: 100%;
+    }
+    .CyberPunk {
+    text-align: center;
+    padding: 20px 20px;
+}
+    h1{
+    font-family: Orbitron;
+    font-size: 90px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #ffffff;
+}
+.herosection{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    align-items: baseline;
+    margin-top: -50px
+}
+.herosection .Gradientbox {
+    padding: 250px 300px;
+}
+.countersec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+}
+/* .countercol1 {
+    width: 100%;
+} */
+.countercol2 {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+    .NeonDreams{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    padding-top: 30px;
+}
+.ndbox1 {
+    width: 100%;
+    align-content: center;
+}
+.ndbox2 {
+    width: 100%;
+}
+.Gradientbox1 {
+    background: linear-gradient(to bottom, #C4C4C4, #010101);
+    padding: 250px 250px;
+}
+.maincounter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.DreamsDigital {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+.Dreamsbox1{
+    width: 100%;
+}
+.Dreamsbox1 img {
+    width: 100%;
+}
+.Dreamsbox2 {
+    width: 100%;
+    align-content: center;
+}
+   .Gradientbox2 {
+    background: linear-gradient(to bottom, #C4C4C4, #010101);
+    padding: 250px 250px;
+}
+.Greetings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Cybernetic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 40px;
+    margin-top: -100px;
+   }
+.iconbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 50px;
+    padding-bottom: 75px;
+}
+.YourPortal{
+display: flex;
+flex-direction: column;
+padding: 0px 50px;
+gap: 50px;
+}
+.futuristic{
+    width: 100%;
+}
+.futuristic img{
+    width: 100%;
+}
+.contentbox{
+    width: 100%;
+}
+.Frequently{
+    align-content: center;
+    text-align: center;
+    padding: 0px 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    gap: 40px;
+    align-items: center!important;
+}
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerend {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    gap: 40px;
+    align-items: center;
+}
+}
+
+
+@media (max-width: 530px) {
+    h1{
+    font-family: Orbitron;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+h2 {
+    font-family: Orbitron;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 46px;
+    color: white;
+    margin: 0px;
+}
+h6 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: white;
+    margin: 0px;
+}
+.herosection .Gradientbox {
+        padding: 240px 240px;
+    }
+.hr {
+    width: 120%;
+    }
+    .CyberPunk{
+    text-align: center;
+    padding: 0px 20px;
+    }
+    .roundedicon {
+    display: flex;
+    justify-content: space-between;
+    margin: -40px 0px;
+    padding: 0px 20px;
+}
+.bx{
+    width: 0%;
+    }
+ .NeonDreams {
+ display: flex;
+ flex-direction: column;
+ padding: 0px 50px;
+ padding-top: 60px;
+}
+.Gradientbox1 {
+background: linear-gradient(to bottom, #C4C4C4, #010101);
+padding: 210px 210px;
+}
+.Gradientbox2 {
+ background: linear-gradient(to bottom, #C4C4C4, #010101);
+ padding: 210px 210px;
+}
+.Revolution {
+    display: flex;
+    flex-direction: column;
+}
+.Greetings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 80px;
+    gap: 40px;
+    background-color: #2e2e2e;
+}
+.Greetings h2 {
+    font-family: Orbitron;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+   .footerdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hrr3 {
+    margin: -93px 0px;
+    width: 120%;
+}
+}
